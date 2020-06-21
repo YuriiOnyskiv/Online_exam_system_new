@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Online_Examination_System.about">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>about.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Online_Examination_System.forgotpassword" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>forgotpassword.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="about" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_addadmin" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQBAAEEAAAASAQAAAIACABAAAAAAAAAAAAIAAEIAAAA=</HashCode>
+      <FileName>admin\addadmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_addquestion" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAkgEABAEAAACAAQAAAAACAAAAAAAACAMiAgAIAAQA=</HashCode>
+      <FileName>admin\addquestion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_category" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIiAAQABAAIAACAAAAAggAAAAkAAAAAIAABCcAAQI=</HashCode>
+      <FileName>admin\category.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_deleteadmin" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_detailsexamquestion" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAgIQAIAAAA=</HashCode>
+      <FileName>admin\detailsexamquestion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_editcategory" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJIAAAAAAAgAAAAACAAAAgAAAAAAAAAAAAAAAIAIAI=</HashCode>
+      <FileName>admin\editcategory.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="editexam" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBEIAAAACAQRAAQQAAAAACIAIAEIAGAMJAEAEKAAAA=</HashCode>
+      <FileName>admin\editexam.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_editquestion" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAEAAAAAQEgAAQEAAAAEABAARACAAAIAAACKCAIA=</HashCode>
+      <FileName>admin\editquestion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_editsubject" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQACAIAQAAAAgAAAAAAAACAIAABQIEgBA=</HashCode>
+      <FileName>admin\editsubject.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_exam" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQDgAQAAACEARYAQBAkAQIjBEgCAAQEIAIRQoBCyA=</HashCode>
+      <FileName>admin\exam.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_examdetails" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAQAAAgAAAAAAAAAAACAAAAAABAAAIAAAA=</HashCode>
+      <FileName>admin\examdetails.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_viewquestion" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAIAAQAAAAAEAAAAgAAAAAAAAIAAAAIAAAAIAAAQ=</HashCode>
+      <FileName>admin\examquestion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_Index" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAigAAECAIAAIAIgAAA=</HashCode>
+      <FileName>admin\Index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_login" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACQACIAIAAAAFAAAAAAAAAQAAgAAoAIAAIIAAA=</HashCode>
+      <FileName>admin\login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_question" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAQAAAAAEAAAAgAAAAAAAAIAAgAIAAAAIAAAQ=</HashCode>
+      <FileName>admin\question.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_resetpass" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAAAAAAAEACEAAAAABgAAiAAAEAAAAIIABA=</HashCode>
+      <FileName>admin\resetpass.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_result" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAFAAAAAIAAABAAAIAAAIMAAAAIAAAA=</HashCode>
+      <FileName>admin\result.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_studentList" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAAAAQAAAAAAAAAAAAABAAgAAAEAIAAAAIAAAA=</HashCode>
+      <FileName>admin\studentList.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin_subject" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAABAACAwABAJAUAAgAAAAoEAACAAAIAAAgIEABA=</HashCode>
+      <FileName>admin\subject.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="admin" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAACgAAAAAAAAAAAAAAAACAAAAAAAIAAgA=</HashCode>
+      <FileName>admin.master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="categoryitem" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABAAAAAAAAAAAQCAAAAAIABAAIAAAA=</HashCode>
+      <FileName>categoryitem.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_Default">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAIACAA=</HashCode>
+      <FileName>index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="login" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACQACIAIAAAAFAAAAAAAAAQAAgAAoAIAAIIAAA=</HashCode>
+      <FileName>login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myresult" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEABAAAQAAAAAAAQAAAAAAQAAIAAAAIAAAA=</HashCode>
+      <FileName>myresult.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exam" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAJEgAhAAABAAAAAABAAAAABECAIAABAICAAA=</HashCode>
+      <FileName>question.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="register" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQAAIAIAAIAEEAAAAAAAAQAAggAwAAgAIMAAA=</HashCode>
+      <FileName>register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="subjectexam" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAogAAAAACAAAAAAAIAABAIAAAA=</HashCode>
+      <FileName>subjectexam.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usermaster" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAgAAAIAAAAAAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>usermaster.master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Online_Examination_System.admin.deleteadmin" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>admin\deleteadmin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
