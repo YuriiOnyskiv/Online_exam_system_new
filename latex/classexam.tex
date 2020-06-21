@@ -1,0 +1,196 @@
+\hypertarget{classexam}{}\section{exam Class Reference}
+\label{classexam}\index{exam@{exam}}
+Inheritance diagram for exam\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classexam}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classexam_a96a0b830b92f813a018d477f7a61cd4c}{questionistmethod}} (int id)
+\item 
+void \mbox{\hyperlink{classexam_a9cc83bde64452d20aa1259108a9c33a4}{checkanwer}} (string qid)
+\item 
+string \mbox{\hyperlink{classexam_a5b56f8b01e90cf29047762ac58140786}{passfail}} ()
+\item 
+void \mbox{\hyperlink{classexam_a9d93630c053d5c62248a0f4361d585da}{saveinresult}} (string status, int score, int tquestion)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classexam_ab1ee701afa79751475c4e5f52c417f0b}{Page\+\_\+\+Load}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{classexam_a63572b6a596a0ee29ff9482c7b737d12}{btn\+\_\+submit\+\_\+\+Click}} (object sender, Event\+Args e)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{classexam_aef16f5e026d3e9953f75ab4300c14746}{getstringuser}}
+\begin{DoxyCompactList}\small\item\em getstringuser control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Grid\+View \mbox{\hyperlink{classexam_a9c8a262201b7134210c2d7a6b185f227}{gridview\+\_\+examquestion}}
+\begin{DoxyCompactList}\small\item\em gridview\+\_\+examquestion control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button \mbox{\hyperlink{classexam_a90432d4b8869da31ab03a41740d7f725}{btn\+\_\+submit}}
+\begin{DoxyCompactList}\small\item\em btn\+\_\+submit control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel \mbox{\hyperlink{classexam_a6758dd187fa3ba3c78369feb5fb94b60}{panel\+\_\+questshow\+\_\+warning}}
+\begin{DoxyCompactList}\small\item\em panel\+\_\+questshow\+\_\+warning control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Label \mbox{\hyperlink{classexam_a2fa44d4bac2960721207e4407b978ac6}{lbl\+\_\+questshowwarning}}
+\begin{DoxyCompactList}\small\item\em lbl\+\_\+questshowwarning control. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classexam_ac6f839121cd7992e5c54d3b8b2711d0f}{s}} = Configuration\+Manager.\+Connection\+Strings\mbox{[}\char`\"{}dbcs\char`\"{}\mbox{]}.Connection\+String
+\item 
+string \mbox{\hyperlink{classexam_a3d6a6de9a1d05e7763066597ceafabbb}{result}} = string.\+Empty
+\item 
+string \mbox{\hyperlink{classexam_a8cc8fbb089450d018a07155af84532fb}{examname}}
+\item 
+int \mbox{\hyperlink{classexam_ab4df7c7aa857cb162d3b383e900c017c}{select\+\_\+number}} = 0
+\item 
+int \mbox{\hyperlink{classexam_af01ef9946fbf30e3762ab32c74c42176}{correct\+\_\+number}} = 0
+\item 
+int \mbox{\hyperlink{classexam_a2b91d7f5691387ef7244aaff89984a37}{wrong\+\_\+number}} = 0
+\item 
+int \mbox{\hyperlink{classexam_acd144f0582e8b0fdfc95e549d0f5f470}{count}} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classexam_a63572b6a596a0ee29ff9482c7b737d12}\label{classexam_a63572b6a596a0ee29ff9482c7b737d12}} 
+\index{exam@{exam}!btn\_submit\_Click@{btn\_submit\_Click}}
+\index{btn\_submit\_Click@{btn\_submit\_Click}!exam@{exam}}
+\subsubsection{\texorpdfstring{btn\_submit\_Click()}{btn\_submit\_Click()}}
+{\footnotesize\ttfamily void exam.\+btn\+\_\+submit\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classexam_a9cc83bde64452d20aa1259108a9c33a4}\label{classexam_a9cc83bde64452d20aa1259108a9c33a4}} 
+\index{exam@{exam}!checkanwer@{checkanwer}}
+\index{checkanwer@{checkanwer}!exam@{exam}}
+\subsubsection{\texorpdfstring{checkanwer()}{checkanwer()}}
+{\footnotesize\ttfamily void exam.\+checkanwer (\begin{DoxyParamCaption}\item[{string}]{qid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classexam_ab1ee701afa79751475c4e5f52c417f0b}\label{classexam_ab1ee701afa79751475c4e5f52c417f0b}} 
+\index{exam@{exam}!Page\_Load@{Page\_Load}}
+\index{Page\_Load@{Page\_Load}!exam@{exam}}
+\subsubsection{\texorpdfstring{Page\_Load()}{Page\_Load()}}
+{\footnotesize\ttfamily void exam.\+Page\+\_\+\+Load (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classexam_a5b56f8b01e90cf29047762ac58140786}\label{classexam_a5b56f8b01e90cf29047762ac58140786}} 
+\index{exam@{exam}!passfail@{passfail}}
+\index{passfail@{passfail}!exam@{exam}}
+\subsubsection{\texorpdfstring{passfail()}{passfail()}}
+{\footnotesize\ttfamily string exam.\+passfail (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classexam_a96a0b830b92f813a018d477f7a61cd4c}\label{classexam_a96a0b830b92f813a018d477f7a61cd4c}} 
+\index{exam@{exam}!questionistmethod@{questionistmethod}}
+\index{questionistmethod@{questionistmethod}!exam@{exam}}
+\subsubsection{\texorpdfstring{questionistmethod()}{questionistmethod()}}
+{\footnotesize\ttfamily void exam.\+questionistmethod (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classexam_a9d93630c053d5c62248a0f4361d585da}\label{classexam_a9d93630c053d5c62248a0f4361d585da}} 
+\index{exam@{exam}!saveinresult@{saveinresult}}
+\index{saveinresult@{saveinresult}!exam@{exam}}
+\subsubsection{\texorpdfstring{saveinresult()}{saveinresult()}}
+{\footnotesize\ttfamily void exam.\+saveinresult (\begin{DoxyParamCaption}\item[{string}]{status,  }\item[{int}]{score,  }\item[{int}]{tquestion }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classexam_a90432d4b8869da31ab03a41740d7f725}\label{classexam_a90432d4b8869da31ab03a41740d7f725}} 
+\index{exam@{exam}!btn\_submit@{btn\_submit}}
+\index{btn\_submit@{btn\_submit}!exam@{exam}}
+\subsubsection{\texorpdfstring{btn\_submit}{btn\_submit}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button exam.\+btn\+\_\+submit\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+btn\+\_\+submit control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{classexam_af01ef9946fbf30e3762ab32c74c42176}\label{classexam_af01ef9946fbf30e3762ab32c74c42176}} 
+\index{exam@{exam}!correct\_number@{correct\_number}}
+\index{correct\_number@{correct\_number}!exam@{exam}}
+\subsubsection{\texorpdfstring{correct\_number}{correct\_number}}
+{\footnotesize\ttfamily int exam.\+correct\+\_\+number = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classexam_acd144f0582e8b0fdfc95e549d0f5f470}\label{classexam_acd144f0582e8b0fdfc95e549d0f5f470}} 
+\index{exam@{exam}!count@{count}}
+\index{count@{count}!exam@{exam}}
+\subsubsection{\texorpdfstring{count}{count}}
+{\footnotesize\ttfamily int exam.\+count = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classexam_a8cc8fbb089450d018a07155af84532fb}\label{classexam_a8cc8fbb089450d018a07155af84532fb}} 
+\index{exam@{exam}!examname@{examname}}
+\index{examname@{examname}!exam@{exam}}
+\subsubsection{\texorpdfstring{examname}{examname}}
+{\footnotesize\ttfamily string exam.\+examname\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classexam_aef16f5e026d3e9953f75ab4300c14746}\label{classexam_aef16f5e026d3e9953f75ab4300c14746}} 
+\index{exam@{exam}!getstringuser@{getstringuser}}
+\index{getstringuser@{getstringuser}!exam@{exam}}
+\subsubsection{\texorpdfstring{getstringuser}{getstringuser}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box exam.\+getstringuser\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+getstringuser control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{classexam_a9c8a262201b7134210c2d7a6b185f227}\label{classexam_a9c8a262201b7134210c2d7a6b185f227}} 
+\index{exam@{exam}!gridview\_examquestion@{gridview\_examquestion}}
+\index{gridview\_examquestion@{gridview\_examquestion}!exam@{exam}}
+\subsubsection{\texorpdfstring{gridview\_examquestion}{gridview\_examquestion}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Grid\+View exam.\+gridview\+\_\+examquestion\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+gridview\+\_\+examquestion control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{classexam_a2fa44d4bac2960721207e4407b978ac6}\label{classexam_a2fa44d4bac2960721207e4407b978ac6}} 
+\index{exam@{exam}!lbl\_questshowwarning@{lbl\_questshowwarning}}
+\index{lbl\_questshowwarning@{lbl\_questshowwarning}!exam@{exam}}
+\subsubsection{\texorpdfstring{lbl\_questshowwarning}{lbl\_questshowwarning}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Label exam.\+lbl\+\_\+questshowwarning\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+lbl\+\_\+questshowwarning control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{classexam_a6758dd187fa3ba3c78369feb5fb94b60}\label{classexam_a6758dd187fa3ba3c78369feb5fb94b60}} 
+\index{exam@{exam}!panel\_questshow\_warning@{panel\_questshow\_warning}}
+\index{panel\_questshow\_warning@{panel\_questshow\_warning}!exam@{exam}}
+\subsubsection{\texorpdfstring{panel\_questshow\_warning}{panel\_questshow\_warning}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel exam.\+panel\+\_\+questshow\+\_\+warning\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+panel\+\_\+questshow\+\_\+warning control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{classexam_a3d6a6de9a1d05e7763066597ceafabbb}\label{classexam_a3d6a6de9a1d05e7763066597ceafabbb}} 
+\index{exam@{exam}!result@{result}}
+\index{result@{result}!exam@{exam}}
+\subsubsection{\texorpdfstring{result}{result}}
+{\footnotesize\ttfamily string exam.\+result = string.\+Empty\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classexam_ac6f839121cd7992e5c54d3b8b2711d0f}\label{classexam_ac6f839121cd7992e5c54d3b8b2711d0f}} 
+\index{exam@{exam}!s@{s}}
+\index{s@{s}!exam@{exam}}
+\subsubsection{\texorpdfstring{s}{s}}
+{\footnotesize\ttfamily string exam.\+s = Configuration\+Manager.\+Connection\+Strings\mbox{[}\char`\"{}dbcs\char`\"{}\mbox{]}.Connection\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classexam_ab4df7c7aa857cb162d3b383e900c017c}\label{classexam_ab4df7c7aa857cb162d3b383e900c017c}} 
+\index{exam@{exam}!select\_number@{select\_number}}
+\index{select\_number@{select\_number}!exam@{exam}}
+\subsubsection{\texorpdfstring{select\_number}{select\_number}}
+{\footnotesize\ttfamily int exam.\+select\+\_\+number = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classexam_a2b91d7f5691387ef7244aaff89984a37}\label{classexam_a2b91d7f5691387ef7244aaff89984a37}} 
+\index{exam@{exam}!wrong\_number@{wrong\_number}}
+\index{wrong\_number@{wrong\_number}!exam@{exam}}
+\subsubsection{\texorpdfstring{wrong\_number}{wrong\_number}}
+{\footnotesize\ttfamily int exam.\+wrong\+\_\+number = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/dell/source/repos/\+Online\+\_\+\+Examination\+\_\+\+System/\+Online\+\_\+\+Examination\+\_\+\+System/\mbox{\hyperlink{question_8aspx_8cs}{question.\+aspx.\+cs}}\item 
+C\+:/\+Users/dell/source/repos/\+Online\+\_\+\+Examination\+\_\+\+System/\+Online\+\_\+\+Examination\+\_\+\+System/\mbox{\hyperlink{question_8aspx_8designer_8cs}{question.\+aspx.\+designer.\+cs}}\end{DoxyCompactItemize}

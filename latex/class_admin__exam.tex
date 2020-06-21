@@ -1,0 +1,456 @@
+\hypertarget{class_admin__exam}{}\section{Admin\+\_\+exam Class Reference}
+\label{class_admin__exam}\index{Admin\_exam@{Admin\_exam}}
+Inheritance diagram for Admin\+\_\+exam\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_admin__exam}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_admin__exam_afd36c9f6e379437d3b26990dc02d1bd9}{get\+\_\+categorydrp}} ()
+\item 
+void \mbox{\hyperlink{class_admin__exam_a890f5ce140b9b389a51cc6b4a96eec57}{get\+\_\+subjectdrp}} ()
+\item 
+void \mbox{\hyperlink{class_admin__exam_a71e7385b85f3a13a988afd28d61abd4e}{getexam\+List}} ()
+\item 
+void \mbox{\hyperlink{class_admin__exam_a78ec6acf22d20761b883bcdb76a1c046}{deleteexam}} (int id)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_admin__exam_a00a00feaddf0698b9b7e6b18ff9424a9}{Page\+\_\+\+Load}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_admin__exam_a53b6d4a1c770701ef00bb857f0e55dbe}{btn\+\_\+panelexamlist\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_admin__exam_a548c7c9052eb34ce0a0157ebf68c0bfe}{btn\+\_\+paneladdexam\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_admin__exam_addecc67ff48bdc0aa12b62d9957507e3}{btn\+\_\+addexam\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_admin__exam_aff3ef80a19bde9a35217da0953e2ccba}{grdview\+\_\+examlist\+\_\+\+Row\+Command}} (object sender, Grid\+View\+Command\+Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_admin__exam_ad1a83687dce99d2051b3e576140d75cd}{grdview\+\_\+examlist\+\_\+\+Page\+Index\+Changing}} (object sender, Grid\+View\+Page\+Event\+Args e)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button \mbox{\hyperlink{class_admin__exam_ac66e3bc3f4108eb9214750aac4211e01}{btn\+\_\+panelexamlist}}
+\begin{DoxyCompactList}\small\item\em btn\+\_\+panelexamlist control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button \mbox{\hyperlink{class_admin__exam_a5d211fe1012dbc560c16df154d50c640}{btn\+\_\+paneladdexam}}
+\begin{DoxyCompactList}\small\item\em btn\+\_\+paneladdexam control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel \mbox{\hyperlink{class_admin__exam_a4c768832676de770420b68f8a3bd0764}{panel\+\_\+addexam}}
+\begin{DoxyCompactList}\small\item\em panel\+\_\+addexam control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Drop\+Down\+List \mbox{\hyperlink{class_admin__exam_ac20ec0f627753b6300bc1c7057dd36d8}{drp\+\_\+categoryexam}}
+\begin{DoxyCompactList}\small\item\em drp\+\_\+categoryexam control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_a7fe603aaebc33d743aa241a023689e62}{require\+\_\+drpcategory}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+drpcategory control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Drop\+Down\+List \mbox{\hyperlink{class_admin__exam_a355ee23e9f8e6b131a36d5a7129a6f5c}{drp\+\_\+subjectexam}}
+\begin{DoxyCompactList}\small\item\em drp\+\_\+subjectexam control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_af92123406142c5433f3e74c11927061d}{require\+\_\+subjecexam}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+subjecexam control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{class_admin__exam_a772d0b25d58e29126cf44b81f2a2f469}{txt\+\_\+examname}}
+\begin{DoxyCompactList}\small\item\em txt\+\_\+examname control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_a8b0e6a4826f0059248af77c18984ed8d}{require\+\_\+examname}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+examname control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{class_admin__exam_a0bbe28c9708463e422886cc122f6ddb0}{txt\+\_\+examdis}}
+\begin{DoxyCompactList}\small\item\em txt\+\_\+examdis control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{class_admin__exam_aa5245c103c34f1d91c483f0a7f720d66}{txt\+\_\+examdate}}
+\begin{DoxyCompactList}\small\item\em txt\+\_\+examdate control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_ad434173b5922eb147ea490d8817bbc6c}{require\+\_\+examdate}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+examdate control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{class_admin__exam_a901c430fc370e8e2c58896b93dae29c3}{txt\+\_\+examduration}}
+\begin{DoxyCompactList}\small\item\em txt\+\_\+examduration control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_ae0f02ff019e950f34484b1da334ed16f}{require\+\_\+examduration}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+examduration control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Regular\+Expression\+Validator \mbox{\hyperlink{class_admin__exam_a6f0c2fda924ac5d196aed5c8ca205885}{requireregular\+\_\+examduration}}
+\begin{DoxyCompactList}\small\item\em requireregular\+\_\+examduration control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{class_admin__exam_aac846d2da109a91c738e315bc4a47ac9}{txt\+\_\+exampassmarks}}
+\begin{DoxyCompactList}\small\item\em txt\+\_\+exampassmarks control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_ac1e52aa784d879c0a293f0693011e8be}{require\+\_\+exampassmark}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+exampassmark control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Regular\+Expression\+Validator \mbox{\hyperlink{class_admin__exam_a7d0e4ac0336be98c1b2678128b1e2ee2}{requireregular\+\_\+exampassmark}}
+\begin{DoxyCompactList}\small\item\em requireregular\+\_\+exampassmark control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box \mbox{\hyperlink{class_admin__exam_aad1c3d4c877bf9551b4d5d7f1c085eb4}{txt\+\_\+exammatotalmarks}}
+\begin{DoxyCompactList}\small\item\em txt\+\_\+exammatotalmarks control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator \mbox{\hyperlink{class_admin__exam_add940b5e9f11fc9a0647def68070ec69}{require\+\_\+exammatotal}}
+\begin{DoxyCompactList}\small\item\em require\+\_\+exammatotal control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Regular\+Expression\+Validator \mbox{\hyperlink{class_admin__exam_add929caada4c50f0f7462fa9a304e5b3}{rege\+\_\+exammatotal}}
+\begin{DoxyCompactList}\small\item\em rege\+\_\+exammatotal control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button \mbox{\hyperlink{class_admin__exam_a4f41d32477ff661b1621a64115a475f6}{btn\+\_\+addexam}}
+\begin{DoxyCompactList}\small\item\em btn\+\_\+addexam control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel \mbox{\hyperlink{class_admin__exam_a4e8c7c73ae6ae42e875b41b1ec65a3df}{panel\+\_\+addexam\+\_\+warning}}
+\begin{DoxyCompactList}\small\item\em panel\+\_\+addexam\+\_\+warning control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Label \mbox{\hyperlink{class_admin__exam_ac0c8acdb6a488f886954aeb8acd7cf06}{lbl\+\_\+examaddwarning}}
+\begin{DoxyCompactList}\small\item\em lbl\+\_\+examaddwarning control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel \mbox{\hyperlink{class_admin__exam_a8211626ff1add9eac5593e12a230b2e3}{panel\+\_\+examlist}}
+\begin{DoxyCompactList}\small\item\em panel\+\_\+examlist control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Grid\+View \mbox{\hyperlink{class_admin__exam_ae74df5782c8358a82a959aac2ef67e90}{grdview\+\_\+examlist}}
+\begin{DoxyCompactList}\small\item\em grdview\+\_\+examlist control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel \mbox{\hyperlink{class_admin__exam_a7a6862e10b7bbacd8ffb44570bc4e7f4}{panel\+\_\+examlist\+\_\+warning}}
+\begin{DoxyCompactList}\small\item\em panel\+\_\+examlist\+\_\+warning control. \end{DoxyCompactList}\item 
+global\+::\+System.\+Web.\+U\+I.\+Web\+Controls.\+Label \mbox{\hyperlink{class_admin__exam_af4a42ee8bbc70b7538a3c053df9896d6}{lbl\+\_\+examlistwarning}}
+\begin{DoxyCompactList}\small\item\em lbl\+\_\+examlistwarning control. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_admin__exam_aa2e22318060149512c85d2350657f1f4}{s}} = Configuration\+Manager.\+Connection\+Strings\mbox{[}\char`\"{}dbcs\char`\"{}\mbox{]}.Connection\+String
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_admin__exam_addecc67ff48bdc0aa12b62d9957507e3}\label{class_admin__exam_addecc67ff48bdc0aa12b62d9957507e3}} 
+\index{Admin\_exam@{Admin\_exam}!btn\_addexam\_Click@{btn\_addexam\_Click}}
+\index{btn\_addexam\_Click@{btn\_addexam\_Click}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{btn\_addexam\_Click()}{btn\_addexam\_Click()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+btn\+\_\+addexam\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_admin__exam_a548c7c9052eb34ce0a0157ebf68c0bfe}\label{class_admin__exam_a548c7c9052eb34ce0a0157ebf68c0bfe}} 
+\index{Admin\_exam@{Admin\_exam}!btn\_paneladdexam\_Click@{btn\_paneladdexam\_Click}}
+\index{btn\_paneladdexam\_Click@{btn\_paneladdexam\_Click}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{btn\_paneladdexam\_Click()}{btn\_paneladdexam\_Click()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+btn\+\_\+paneladdexam\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_admin__exam_a53b6d4a1c770701ef00bb857f0e55dbe}\label{class_admin__exam_a53b6d4a1c770701ef00bb857f0e55dbe}} 
+\index{Admin\_exam@{Admin\_exam}!btn\_panelexamlist\_Click@{btn\_panelexamlist\_Click}}
+\index{btn\_panelexamlist\_Click@{btn\_panelexamlist\_Click}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{btn\_panelexamlist\_Click()}{btn\_panelexamlist\_Click()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+btn\+\_\+panelexamlist\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_admin__exam_a78ec6acf22d20761b883bcdb76a1c046}\label{class_admin__exam_a78ec6acf22d20761b883bcdb76a1c046}} 
+\index{Admin\_exam@{Admin\_exam}!deleteexam@{deleteexam}}
+\index{deleteexam@{deleteexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{deleteexam()}{deleteexam()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+deleteexam (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_admin__exam_afd36c9f6e379437d3b26990dc02d1bd9}\label{class_admin__exam_afd36c9f6e379437d3b26990dc02d1bd9}} 
+\index{Admin\_exam@{Admin\_exam}!get\_categorydrp@{get\_categorydrp}}
+\index{get\_categorydrp@{get\_categorydrp}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{get\_categorydrp()}{get\_categorydrp()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+get\+\_\+categorydrp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_admin__exam_a890f5ce140b9b389a51cc6b4a96eec57}\label{class_admin__exam_a890f5ce140b9b389a51cc6b4a96eec57}} 
+\index{Admin\_exam@{Admin\_exam}!get\_subjectdrp@{get\_subjectdrp}}
+\index{get\_subjectdrp@{get\_subjectdrp}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{get\_subjectdrp()}{get\_subjectdrp()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+get\+\_\+subjectdrp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_admin__exam_a71e7385b85f3a13a988afd28d61abd4e}\label{class_admin__exam_a71e7385b85f3a13a988afd28d61abd4e}} 
+\index{Admin\_exam@{Admin\_exam}!getexamList@{getexamList}}
+\index{getexamList@{getexamList}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{getexamList()}{getexamList()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+getexam\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_admin__exam_ad1a83687dce99d2051b3e576140d75cd}\label{class_admin__exam_ad1a83687dce99d2051b3e576140d75cd}} 
+\index{Admin\_exam@{Admin\_exam}!grdview\_examlist\_PageIndexChanging@{grdview\_examlist\_PageIndexChanging}}
+\index{grdview\_examlist\_PageIndexChanging@{grdview\_examlist\_PageIndexChanging}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{grdview\_examlist\_PageIndexChanging()}{grdview\_examlist\_PageIndexChanging()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+grdview\+\_\+examlist\+\_\+\+Page\+Index\+Changing (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Grid\+View\+Page\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_admin__exam_aff3ef80a19bde9a35217da0953e2ccba}\label{class_admin__exam_aff3ef80a19bde9a35217da0953e2ccba}} 
+\index{Admin\_exam@{Admin\_exam}!grdview\_examlist\_RowCommand@{grdview\_examlist\_RowCommand}}
+\index{grdview\_examlist\_RowCommand@{grdview\_examlist\_RowCommand}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{grdview\_examlist\_RowCommand()}{grdview\_examlist\_RowCommand()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+grdview\+\_\+examlist\+\_\+\+Row\+Command (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Grid\+View\+Command\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_admin__exam_a00a00feaddf0698b9b7e6b18ff9424a9}\label{class_admin__exam_a00a00feaddf0698b9b7e6b18ff9424a9}} 
+\index{Admin\_exam@{Admin\_exam}!Page\_Load@{Page\_Load}}
+\index{Page\_Load@{Page\_Load}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{Page\_Load()}{Page\_Load()}}
+{\footnotesize\ttfamily void Admin\+\_\+exam.\+Page\+\_\+\+Load (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_admin__exam_a4f41d32477ff661b1621a64115a475f6}\label{class_admin__exam_a4f41d32477ff661b1621a64115a475f6}} 
+\index{Admin\_exam@{Admin\_exam}!btn\_addexam@{btn\_addexam}}
+\index{btn\_addexam@{btn\_addexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{btn\_addexam}{btn\_addexam}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button Admin\+\_\+exam.\+btn\+\_\+addexam\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+btn\+\_\+addexam control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a5d211fe1012dbc560c16df154d50c640}\label{class_admin__exam_a5d211fe1012dbc560c16df154d50c640}} 
+\index{Admin\_exam@{Admin\_exam}!btn\_paneladdexam@{btn\_paneladdexam}}
+\index{btn\_paneladdexam@{btn\_paneladdexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{btn\_paneladdexam}{btn\_paneladdexam}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button Admin\+\_\+exam.\+btn\+\_\+paneladdexam\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+btn\+\_\+paneladdexam control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ac66e3bc3f4108eb9214750aac4211e01}\label{class_admin__exam_ac66e3bc3f4108eb9214750aac4211e01}} 
+\index{Admin\_exam@{Admin\_exam}!btn\_panelexamlist@{btn\_panelexamlist}}
+\index{btn\_panelexamlist@{btn\_panelexamlist}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{btn\_panelexamlist}{btn\_panelexamlist}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Button Admin\+\_\+exam.\+btn\+\_\+panelexamlist\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+btn\+\_\+panelexamlist control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ac20ec0f627753b6300bc1c7057dd36d8}\label{class_admin__exam_ac20ec0f627753b6300bc1c7057dd36d8}} 
+\index{Admin\_exam@{Admin\_exam}!drp\_categoryexam@{drp\_categoryexam}}
+\index{drp\_categoryexam@{drp\_categoryexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{drp\_categoryexam}{drp\_categoryexam}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Drop\+Down\+List Admin\+\_\+exam.\+drp\+\_\+categoryexam\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+drp\+\_\+categoryexam control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a355ee23e9f8e6b131a36d5a7129a6f5c}\label{class_admin__exam_a355ee23e9f8e6b131a36d5a7129a6f5c}} 
+\index{Admin\_exam@{Admin\_exam}!drp\_subjectexam@{drp\_subjectexam}}
+\index{drp\_subjectexam@{drp\_subjectexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{drp\_subjectexam}{drp\_subjectexam}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Drop\+Down\+List Admin\+\_\+exam.\+drp\+\_\+subjectexam\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+drp\+\_\+subjectexam control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ae74df5782c8358a82a959aac2ef67e90}\label{class_admin__exam_ae74df5782c8358a82a959aac2ef67e90}} 
+\index{Admin\_exam@{Admin\_exam}!grdview\_examlist@{grdview\_examlist}}
+\index{grdview\_examlist@{grdview\_examlist}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{grdview\_examlist}{grdview\_examlist}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Grid\+View Admin\+\_\+exam.\+grdview\+\_\+examlist\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+grdview\+\_\+examlist control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ac0c8acdb6a488f886954aeb8acd7cf06}\label{class_admin__exam_ac0c8acdb6a488f886954aeb8acd7cf06}} 
+\index{Admin\_exam@{Admin\_exam}!lbl\_examaddwarning@{lbl\_examaddwarning}}
+\index{lbl\_examaddwarning@{lbl\_examaddwarning}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{lbl\_examaddwarning}{lbl\_examaddwarning}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Label Admin\+\_\+exam.\+lbl\+\_\+examaddwarning\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+lbl\+\_\+examaddwarning control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_af4a42ee8bbc70b7538a3c053df9896d6}\label{class_admin__exam_af4a42ee8bbc70b7538a3c053df9896d6}} 
+\index{Admin\_exam@{Admin\_exam}!lbl\_examlistwarning@{lbl\_examlistwarning}}
+\index{lbl\_examlistwarning@{lbl\_examlistwarning}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{lbl\_examlistwarning}{lbl\_examlistwarning}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Label Admin\+\_\+exam.\+lbl\+\_\+examlistwarning\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+lbl\+\_\+examlistwarning control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a4c768832676de770420b68f8a3bd0764}\label{class_admin__exam_a4c768832676de770420b68f8a3bd0764}} 
+\index{Admin\_exam@{Admin\_exam}!panel\_addexam@{panel\_addexam}}
+\index{panel\_addexam@{panel\_addexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{panel\_addexam}{panel\_addexam}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel Admin\+\_\+exam.\+panel\+\_\+addexam\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+panel\+\_\+addexam control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a4e8c7c73ae6ae42e875b41b1ec65a3df}\label{class_admin__exam_a4e8c7c73ae6ae42e875b41b1ec65a3df}} 
+\index{Admin\_exam@{Admin\_exam}!panel\_addexam\_warning@{panel\_addexam\_warning}}
+\index{panel\_addexam\_warning@{panel\_addexam\_warning}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{panel\_addexam\_warning}{panel\_addexam\_warning}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel Admin\+\_\+exam.\+panel\+\_\+addexam\+\_\+warning\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+panel\+\_\+addexam\+\_\+warning control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a8211626ff1add9eac5593e12a230b2e3}\label{class_admin__exam_a8211626ff1add9eac5593e12a230b2e3}} 
+\index{Admin\_exam@{Admin\_exam}!panel\_examlist@{panel\_examlist}}
+\index{panel\_examlist@{panel\_examlist}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{panel\_examlist}{panel\_examlist}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel Admin\+\_\+exam.\+panel\+\_\+examlist\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+panel\+\_\+examlist control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a7a6862e10b7bbacd8ffb44570bc4e7f4}\label{class_admin__exam_a7a6862e10b7bbacd8ffb44570bc4e7f4}} 
+\index{Admin\_exam@{Admin\_exam}!panel\_examlist\_warning@{panel\_examlist\_warning}}
+\index{panel\_examlist\_warning@{panel\_examlist\_warning}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{panel\_examlist\_warning}{panel\_examlist\_warning}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Panel Admin\+\_\+exam.\+panel\+\_\+examlist\+\_\+warning\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+panel\+\_\+examlist\+\_\+warning control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_add929caada4c50f0f7462fa9a304e5b3}\label{class_admin__exam_add929caada4c50f0f7462fa9a304e5b3}} 
+\index{Admin\_exam@{Admin\_exam}!rege\_exammatotal@{rege\_exammatotal}}
+\index{rege\_exammatotal@{rege\_exammatotal}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{rege\_exammatotal}{rege\_exammatotal}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Regular\+Expression\+Validator Admin\+\_\+exam.\+rege\+\_\+exammatotal\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+rege\+\_\+exammatotal control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a7fe603aaebc33d743aa241a023689e62}\label{class_admin__exam_a7fe603aaebc33d743aa241a023689e62}} 
+\index{Admin\_exam@{Admin\_exam}!require\_drpcategory@{require\_drpcategory}}
+\index{require\_drpcategory@{require\_drpcategory}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_drpcategory}{require\_drpcategory}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+drpcategory\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+drpcategory control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ad434173b5922eb147ea490d8817bbc6c}\label{class_admin__exam_ad434173b5922eb147ea490d8817bbc6c}} 
+\index{Admin\_exam@{Admin\_exam}!require\_examdate@{require\_examdate}}
+\index{require\_examdate@{require\_examdate}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_examdate}{require\_examdate}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+examdate\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+examdate control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ae0f02ff019e950f34484b1da334ed16f}\label{class_admin__exam_ae0f02ff019e950f34484b1da334ed16f}} 
+\index{Admin\_exam@{Admin\_exam}!require\_examduration@{require\_examduration}}
+\index{require\_examduration@{require\_examduration}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_examduration}{require\_examduration}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+examduration\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+examduration control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_add940b5e9f11fc9a0647def68070ec69}\label{class_admin__exam_add940b5e9f11fc9a0647def68070ec69}} 
+\index{Admin\_exam@{Admin\_exam}!require\_exammatotal@{require\_exammatotal}}
+\index{require\_exammatotal@{require\_exammatotal}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_exammatotal}{require\_exammatotal}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+exammatotal\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+exammatotal control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a8b0e6a4826f0059248af77c18984ed8d}\label{class_admin__exam_a8b0e6a4826f0059248af77c18984ed8d}} 
+\index{Admin\_exam@{Admin\_exam}!require\_examname@{require\_examname}}
+\index{require\_examname@{require\_examname}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_examname}{require\_examname}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+examname\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+examname control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_ac1e52aa784d879c0a293f0693011e8be}\label{class_admin__exam_ac1e52aa784d879c0a293f0693011e8be}} 
+\index{Admin\_exam@{Admin\_exam}!require\_exampassmark@{require\_exampassmark}}
+\index{require\_exampassmark@{require\_exampassmark}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_exampassmark}{require\_exampassmark}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+exampassmark\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+exampassmark control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_af92123406142c5433f3e74c11927061d}\label{class_admin__exam_af92123406142c5433f3e74c11927061d}} 
+\index{Admin\_exam@{Admin\_exam}!require\_subjecexam@{require\_subjecexam}}
+\index{require\_subjecexam@{require\_subjecexam}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{require\_subjecexam}{require\_subjecexam}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Required\+Field\+Validator Admin\+\_\+exam.\+require\+\_\+subjecexam\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+require\+\_\+subjecexam control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a6f0c2fda924ac5d196aed5c8ca205885}\label{class_admin__exam_a6f0c2fda924ac5d196aed5c8ca205885}} 
+\index{Admin\_exam@{Admin\_exam}!requireregular\_examduration@{requireregular\_examduration}}
+\index{requireregular\_examduration@{requireregular\_examduration}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{requireregular\_examduration}{requireregular\_examduration}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Regular\+Expression\+Validator Admin\+\_\+exam.\+requireregular\+\_\+examduration\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+requireregular\+\_\+examduration control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a7d0e4ac0336be98c1b2678128b1e2ee2}\label{class_admin__exam_a7d0e4ac0336be98c1b2678128b1e2ee2}} 
+\index{Admin\_exam@{Admin\_exam}!requireregular\_exampassmark@{requireregular\_exampassmark}}
+\index{requireregular\_exampassmark@{requireregular\_exampassmark}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{requireregular\_exampassmark}{requireregular\_exampassmark}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Regular\+Expression\+Validator Admin\+\_\+exam.\+requireregular\+\_\+exampassmark\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+requireregular\+\_\+exampassmark control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_aa2e22318060149512c85d2350657f1f4}\label{class_admin__exam_aa2e22318060149512c85d2350657f1f4}} 
+\index{Admin\_exam@{Admin\_exam}!s@{s}}
+\index{s@{s}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{s}{s}}
+{\footnotesize\ttfamily string Admin\+\_\+exam.\+s = Configuration\+Manager.\+Connection\+Strings\mbox{[}\char`\"{}dbcs\char`\"{}\mbox{]}.Connection\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_admin__exam_aa5245c103c34f1d91c483f0a7f720d66}\label{class_admin__exam_aa5245c103c34f1d91c483f0a7f720d66}} 
+\index{Admin\_exam@{Admin\_exam}!txt\_examdate@{txt\_examdate}}
+\index{txt\_examdate@{txt\_examdate}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{txt\_examdate}{txt\_examdate}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box Admin\+\_\+exam.\+txt\+\_\+examdate\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+txt\+\_\+examdate control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a0bbe28c9708463e422886cc122f6ddb0}\label{class_admin__exam_a0bbe28c9708463e422886cc122f6ddb0}} 
+\index{Admin\_exam@{Admin\_exam}!txt\_examdis@{txt\_examdis}}
+\index{txt\_examdis@{txt\_examdis}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{txt\_examdis}{txt\_examdis}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box Admin\+\_\+exam.\+txt\+\_\+examdis\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+txt\+\_\+examdis control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a901c430fc370e8e2c58896b93dae29c3}\label{class_admin__exam_a901c430fc370e8e2c58896b93dae29c3}} 
+\index{Admin\_exam@{Admin\_exam}!txt\_examduration@{txt\_examduration}}
+\index{txt\_examduration@{txt\_examduration}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{txt\_examduration}{txt\_examduration}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box Admin\+\_\+exam.\+txt\+\_\+examduration\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+txt\+\_\+examduration control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_aad1c3d4c877bf9551b4d5d7f1c085eb4}\label{class_admin__exam_aad1c3d4c877bf9551b4d5d7f1c085eb4}} 
+\index{Admin\_exam@{Admin\_exam}!txt\_exammatotalmarks@{txt\_exammatotalmarks}}
+\index{txt\_exammatotalmarks@{txt\_exammatotalmarks}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{txt\_exammatotalmarks}{txt\_exammatotalmarks}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box Admin\+\_\+exam.\+txt\+\_\+exammatotalmarks\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+txt\+\_\+exammatotalmarks control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_a772d0b25d58e29126cf44b81f2a2f469}\label{class_admin__exam_a772d0b25d58e29126cf44b81f2a2f469}} 
+\index{Admin\_exam@{Admin\_exam}!txt\_examname@{txt\_examname}}
+\index{txt\_examname@{txt\_examname}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{txt\_examname}{txt\_examname}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box Admin\+\_\+exam.\+txt\+\_\+examname\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+txt\+\_\+examname control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. \mbox{\Hypertarget{class_admin__exam_aac846d2da109a91c738e315bc4a47ac9}\label{class_admin__exam_aac846d2da109a91c738e315bc4a47ac9}} 
+\index{Admin\_exam@{Admin\_exam}!txt\_exampassmarks@{txt\_exampassmarks}}
+\index{txt\_exampassmarks@{txt\_exampassmarks}!Admin\_exam@{Admin\_exam}}
+\subsubsection{\texorpdfstring{txt\_exampassmarks}{txt\_exampassmarks}}
+{\footnotesize\ttfamily global.\+System.\+Web.\+U\+I.\+Web\+Controls.\+Text\+Box Admin\+\_\+exam.\+txt\+\_\+exampassmarks\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+txt\+\_\+exampassmarks control. 
+
+Auto-\/generated field. To modify move field declaration from designer file to code-\/behind file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/dell/source/repos/\+Online\+\_\+\+Examination\+\_\+\+System/\+Online\+\_\+\+Examination\+\_\+\+System/admin/\mbox{\hyperlink{exam_8aspx_8cs}{exam.\+aspx.\+cs}}\item 
+C\+:/\+Users/dell/source/repos/\+Online\+\_\+\+Examination\+\_\+\+System/\+Online\+\_\+\+Examination\+\_\+\+System/admin/\mbox{\hyperlink{exam_8aspx_8designer_8cs}{exam.\+aspx.\+designer.\+cs}}\end{DoxyCompactItemize}
