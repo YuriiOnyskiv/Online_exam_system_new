@@ -21,7 +21,7 @@
                 <p>In student section </p>
                 <p>&nbsp;</p>
                 <ul>
-                    <li>A student can create his profile n</li>
+                    <li>A student can create his profile </li>
                     <li>A student can take part in exam </li>
                     <li>A students can search the website to get easilt the exam</li>
                     <li>A student can see his progress report</li>

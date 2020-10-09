@@ -38,5 +38,6 @@
             </div>
         </div>
     </div>
+ <script src="../assets/js/Myscript.js"></script>
 </asp:Content>
 

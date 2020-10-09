@@ -31,6 +31,7 @@ public partial class register : System.Web.UI.Page
                 cmd.Parameters.AddWithValue("@user_lname", txt_lname.Text);
                 cmd.Parameters.AddWithValue("@email", txt_email.Text);
                 cmd.Parameters.AddWithValue("@password", txt_pass.Text);
+                
                 try
                 {
                     con.Open();
