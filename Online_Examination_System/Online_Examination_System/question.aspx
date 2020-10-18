@@ -4,7 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" runat="Server">
     <h2 class="m-4">Answer all the questions</h2>
+    <h2 class="m-4">Time remaining: <span id="time-left"></span></h2>
     <hr />
+    
     <asp:TextBox ID="getstringuser" runat="server" Visible="false"></asp:TextBox>
     <asp:GridView ID="gridview_examquestion" runat="server" AutoGenerateColumns="False" GridLines="None">
         <Columns>
@@ -39,5 +41,6 @@
         </div>
     </div>
  <script src="../assets/js/Myscript.js"></script>
+ <script src="../assets/js/Timer.js"></script>
 </asp:Content>
 

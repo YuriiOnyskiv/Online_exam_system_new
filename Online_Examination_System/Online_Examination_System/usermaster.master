@@ -22,7 +22,7 @@
     <link href="assets/css/usercustom.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="startCountdown(300);">
     <form id="userform" runat="server">
 
         <!-- Navigation -->
