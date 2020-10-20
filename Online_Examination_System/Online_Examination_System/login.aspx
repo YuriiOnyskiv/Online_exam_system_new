@@ -13,14 +13,29 @@
     <!-- Bootstrap core CSS-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for login-->
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- <link href="assets/css/custom.css" rel="stylesheet"> -->
+    <script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+    <link href="assets/css/Mylogin.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i" rel="stylesheet">
 </head>
 
-<body class="bg-dark">
-    <div class="container">
-        <div class="card card-login mx-auto mt-5">
-            <div class="card-header">Login</div>
-            <div class="card-body">
+<body>
+    <!--  particles  -->
+	<div id="particles-js"></div>
+	<!-- //particles -->
+    <div class=" w3ls-pos">
+        <h1>Login</h1>
+        <div class=" w3ls-login box">
+           <!-- <div class="card-header">Login</div> -->
+            
                 <form runat="server" id="formlogin">
                     <asp:Panel ID="pnl_warning" runat="server" Visible="false">
                     <div class="form-group card-header text-center">
@@ -29,13 +44,13 @@
                         </div>
                     </div>
                     </asp:Panel>
-                    <div class="form-group">
+                    <div class="my-login">
                         <label for="exampleInputEmail1">Email address</label>
                         <asp:TextBox ID="txt_email" runat="server" CssClass="form-control" placeholder="Enter email" TextMode="Email"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="rqr_emil" runat="server" ErrorMessage="Enter email" ControlToValidate="txt_email" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
                         <asp:RegularExpressionValidator ID="rqrexpre_email" runat="server" ErrorMessage="Enter validate email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txt_email" Display="Dynamic" ForeColor="Red"></asp:RegularExpressionValidator>
                     </div>
-                    <div class="form-group">
+                    <div class="my-login">
                         <div class="form-row">
                             <div class="col-md-6">
                                 <label for="exampleInputPassword1">Password</label>
@@ -49,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="checking">
                         <div class="form-check">
                             <label class="form-check-label">
                                 <asp:CheckBox ID="chk_remember" runat="server" CssClass="form-check-input remembermecustom" />
@@ -57,16 +72,18 @@
                         </div>
                     </div>
                     <asp:Button ID="btn_login" runat="server" Text="Log In" CssClass="btn btn-primary btn-block" OnClick="btn_login_Click" />
-                    <div class="text-center">
-                        <a class="d-block small mt-3" href="register.aspx">Register an Account</a>
-                        <a class="d-block small" href="forgot-password.aspx">Forgot Password?</a>
-                        <a class="d-block small" href="admin/login.aspx">Login as Admin</a>
+                    <div class="form-group text-center">
+                        <a class="d-block small mt-3 additional" href="register.aspx">Register an Account</a>
+                        <a class="d-block small additional" href="forgot-password.aspx">Forgot Password?</a>
+                        <a class="d-block small additional" href="admin/login.aspx">Login as Admin</a>
                     </div>
                 </form>
 
-            </div>
+            
         </div>
-    </div>
+   </div>
+    <script src='assets/js/Myparticles.min.js'></script>
+	<script src="assets/js/Myindex.js"></script>
 </body>
 
 </html>
