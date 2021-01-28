@@ -1,6 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="myresult.aspx.cs" Inherits="myresult" %>
+﻿<%@ Page Title="Results" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="myresult.aspx.cs" Inherits="myresult" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="heardcontentplaceholder" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ExtraContent" runat="Server">
+    <link href="assets/css/Background.css" rel="stylesheet">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" Runat="Server">
     <div class="card-header">
@@ -17,7 +20,7 @@
             <asp:BoundField DataField="result_score" HeaderText="Your Score" />
         </Columns>
     </asp:GridView>
-        <div class="col-md-12">
+        <div class="col-md-12" style="display:none">
         <div class="card">
             <div class="card-header">
                 <asp:Panel ID="panel_myresultshow_warning" runat="server" Visible="false">

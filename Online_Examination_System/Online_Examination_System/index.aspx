@@ -1,9 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Admin_categoryList" %>
 
+
 <asp:Content ID="Content1" ContentPlaceHolderID="heardcontentplaceholder" runat="Server">
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ExtraContent" runat="Server">
+    <link href="assets/css/Background.css" rel="stylesheet">
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" runat="Server">
-    <h2 class="my-4">Category</h2>
+    
+        <h2 class="my-4">Category</h2>
     <hr />
     <!-- Category Section -->
     <div class="row">
@@ -19,7 +24,7 @@
                 </div>
             </ItemTemplate>
         </asp:Repeater>
-        <div class="col-md-12">
+        <div class="col-md-12" style="visibility:hidden">
             <div class="card">
                 <div class="card-header">
                     <asp:Panel ID="panel_categoryshow_warning" runat="server" Visible="false">

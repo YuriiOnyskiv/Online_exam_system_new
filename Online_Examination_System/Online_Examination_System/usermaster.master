@@ -14,7 +14,8 @@
     <title>Welcome to online exam</title>
     <asp:ContentPlaceHolder ID="heardcontentplaceholder" runat="server">
     </asp:ContentPlaceHolder>
-
+    <asp:ContentPlaceHolder ID="ExtraContent" runat="server">
+    </asp:ContentPlaceHolder>
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,7 +23,7 @@
     <link href="assets/css/usercustom.css" rel="stylesheet">
 </head>
 
-<body onload="startCountdown(300);">
+<body onload="startCountdown(299);">
     <form id="userform" runat="server">
 
         <!-- Navigation -->

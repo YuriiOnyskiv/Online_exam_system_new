@@ -1,7 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="question.aspx.cs" Inherits="exam" %>
+﻿<%@ Page Title="Examination" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="question.aspx.cs" Inherits="exam" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="heardcontentplaceholder" runat="Server">
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ExtraContent" runat="Server">
+    <link href="assets/css/Background.css" rel="stylesheet">
+    </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" runat="Server">
     <h2 class="m-4">Answer all the questions</h2>
     <h2 class="m-4">Time remaining: <span id="time-left"></span></h2>
@@ -28,7 +31,7 @@
         </Columns>
     </asp:GridView>
     <asp:Button ID="btn_submit" runat="server" Text="Submit" CssClass="btn btn-success" OnClick="btn_submit_Click" />
-    <div class="col-md-12">
+    <div class="col-md-12" style="visibility:hidden">
         <div class="card">
             <div class="card-header">
                 <asp:Panel ID="panel_questshow_warning" runat="server" Visible="false">

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Online_Examination_System
 {
-    public partial class forgotpassword : System.Web.UI.Page
+    public partial class timeOver : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

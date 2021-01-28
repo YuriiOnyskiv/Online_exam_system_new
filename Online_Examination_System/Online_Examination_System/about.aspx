@@ -2,6 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="heardcontentplaceholder" runat="Server">
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ExtraContent" runat="Server">
+    <link href="assets/css/Background.css" rel="stylesheet">
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" runat="Server">
     <div class="row">
         <div class="col-md-12">

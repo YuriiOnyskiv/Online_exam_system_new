@@ -1,6 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="subjectexam.aspx.cs" Inherits="subjectexam" %>
+﻿<%@ Page Title="Your subjects" Language="C#" MasterPageFile="~/usermaster.master" AutoEventWireup="true" CodeBehind="subjectexam.aspx.cs" Inherits="subjectexam" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="heardcontentplaceholder" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ExtraContent" runat="Server">
+    <link href="assets/css/Background.css" rel="stylesheet">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" runat="Server">
     <h2 class="m-4">All

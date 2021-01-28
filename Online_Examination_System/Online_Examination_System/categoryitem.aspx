@@ -2,6 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="heardcontentplaceholder" runat="Server">
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ExtraContent" runat="Server">
+    <link href="assets/css/Background.css" rel="stylesheet">
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="maincontentplaceholder" runat="Server">
         <h2 class="m-4">
             All <asp:Label ID="lbl_categorysubject" runat="server"></asp:Label> Category Subject</h2>
@@ -19,7 +22,7 @@
                 </div>
             </ItemTemplate>
         </asp:Repeater>
-        <div class="col-md-12">
+        <div class="col-md-12" style="visibility:hidden">
             <div class="card">
                 <div class="card-header">
                     <asp:Panel ID="panel_subjectshow_warning" runat="server" Visible="false">

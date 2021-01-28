@@ -19,7 +19,6 @@ public partial class Admin_categoryList {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Repeater gridview_categorylist;
-    
     /// <summary>
     /// panel_categoryshow_warning control.
     /// </summary>
@@ -28,7 +27,7 @@ public partial class Admin_categoryList {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Panel panel_categoryshow_warning;
-    
+
     /// <summary>
     /// lbl_categoryshowwarning control.
     /// </summary>

@@ -21,6 +21,6 @@ function startCountdown(timeLeft) {
         }
 
         function completed() {
-            window.location = "http://www.asp.net";
+            window.location = "http://localhost:50618/timeOver.aspx";
         }
     }

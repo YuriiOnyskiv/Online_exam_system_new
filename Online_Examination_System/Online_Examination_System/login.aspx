@@ -74,7 +74,6 @@
                     <asp:Button ID="btn_login" runat="server" Text="Log In" CssClass="btn btn-primary btn-block" OnClick="btn_login_Click" />
                     <div class="form-group text-center">
                         <a class="d-block small mt-3 additional" href="register.aspx">Register an Account</a>
-                        <a class="d-block small additional" href="forgot-password.aspx">Forgot Password?</a>
                         <a class="d-block small additional" href="admin/login.aspx">Login as Admin</a>
                     </div>
                 </form>

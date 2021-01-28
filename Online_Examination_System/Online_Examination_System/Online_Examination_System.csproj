@@ -108,13 +108,13 @@
     <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="categoryitem.aspx" />
-    <Content Include="forgotpassword.aspx" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="myresult.aspx" />
     <Content Include="question.aspx" />
     <Content Include="register.aspx" />
     <Content Include="subjectexam.aspx" />
+    <Content Include="timeOver.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -272,13 +272,6 @@
     <Compile Include="categoryitem.aspx.designer.cs">
       <DependentUpon>categoryitem.aspx</DependentUpon>
     </Compile>
-    <Compile Include="forgotpassword.aspx.cs">
-      <DependentUpon>forgotpassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="forgotpassword.aspx.designer.cs">
-      <DependentUpon>forgotpassword.aspx</DependentUpon>
-    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -321,6 +314,13 @@
     </Compile>
     <Compile Include="subjectexam.aspx.designer.cs">
       <DependentUpon>subjectexam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="timeOver.aspx.cs">
+      <DependentUpon>timeOver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="timeOver.aspx.designer.cs">
+      <DependentUpon>timeOver.aspx</DependentUpon>
     </Compile>
     <Compile Include="usermaster.master.cs">
       <DependentUpon>usermaster.master</DependentUpon>
