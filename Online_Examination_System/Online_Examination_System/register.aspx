@@ -81,7 +81,7 @@
                     <asp:Button ID="btn_register" runat="server" Text="Register" CssClass="btn btn-primary btn-block" OnClick="btn_register_Click" />
                     <div class="text-center">
                         <a class="d-block small mt-3 additional" href="login.aspx">Login Page</a>
-                        <a class="d-block small additional" href="forgotpassword.aspx">Forgot Password?</a>
+                       
                     </div>
                 </form>
 
